@@ -1,0 +1,370 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+font-family: Futura;
+background-color: black;
+}
+
+#wrapper
+{
+		padding:0;
+		position:relative;
+}
+
+header, main, footer, .head-banner img, nav {width:100%;}
+
+.head-banner
+{
+	height:80%;
+}
+
+
+
+.container{
+margin-top:2.5%;
+margin-bottom:6%;
+}
+
+.mid-diet-container
+{
+	height:350px;
+}
+
+.mid-about-container
+{
+	height:232px;
+}
+
+.mid-contact-container
+{
+	height:590px;
+}
+
+.mid-home-container
+{
+	height:700px;
+}
+
+.mid-shop-container
+{
+	height:960px;
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, gray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, gray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, gray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, gray); /* Standard syntax (must be last) */
+}
+
+.nav-img-wrapper
+{
+	position:relative;
+	margin-bottom:1%;
+}
+
+.img-nav
+{
+	float:left;
+}
+
+.nav-background
+{
+	margin:0;
+	padding:0;
+	background-image:url(images/nav.jpg);
+	display:block;
+    overflow:hidden;
+}
+
+nav ul
+{
+  text-decoration:none;
+  display: inline;
+  margin:0;
+padding:0;
+}
+
+nav ul li
+{
+margin:0;
+padding:0px 4.2%;
+text-align:center;
+}
+
+nav ul li a
+{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+nav ul li {display: inline-block;}
+nav ul li:hover {background: black;}
+nav ul li:hover ul {display: block;}
+
+nav ul li ul {
+  position: absolute;
+  width: 177px;
+  display: none;
+  background-color:black;
+  margin-left:-4.2%;
+}
+nav ul li ul li { 
+  display: block; 
+  font-weight:bold;
+  margin:10% 0px;
+}
+nav ul li ul li a {display:block !important;} 
+
+nav ul li:hover
+{
+	background-color:black;
+}
+
+nav ul li a:visited
+{
+	color:blue;
+}
+
+nav ul li ul li a:visited
+{
+	color:blue;
+}
+
+
+.left_sidebar{
+padding: 20px;
+font-size: 105%;
+width: 60%;
+float: left;
+color: white;
+}
+
+.img-product
+{
+max-width: 100%;
+height: auto;
+
+}
+	
+.right_sidebar
+{
+float: left;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 10px;
+padding: 20px;
+font-size: 105%;
+width: 30%;
+color: white;
+}
+
+hr
+{
+margin-top:1.7%;	
+}
+
+.media-section, .club-shop
+{
+	float: left;
+	font-size: 105%;
+	width: 48%;
+	color: white;
+}
+
+.media-section
+{
+margin-right:2%;
+}
+
+.abt-section1
+{
+	margin:2% 0px;
+	width:30%;
+	float:left;
+	min-width:300px;
+	padding-left:15%;;
+}
+
+.abt-section2
+{
+padding-top:2%;
+padding-left:5%;
+width:88%;
+}
+.abt-section2 p
+{
+	color:white;
+}
+.abt-section2 h1
+{
+}
+#rounded-img
+{
+	border-radius:50%;
+	border:1px solid white;
+}
+
+#shop-content p 
+{
+	margin:3%;
+}
+#shop-links
+{
+	margin:3%;
+}
+#shop-links a
+{
+	margin:2%;
+	text-decoration:none;
+	padding:1%;
+	background:gray;
+	color:white;
+}
+
+#content, #shop-content{
+color: white;
+margin-left: 20px;
+margin-right: 0;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 110%;
+}
+
+#shop-content{
+text-align:center;
+}
+
+#shop-content h2{
+	margin:10px 0;
+}
+
+#shop-content span{
+	display:block;
+	width:20%;
+	margin:10px auto;
+}
+
+.champion{
+color: gold;
+text-decoration: underline;
+}
+
+.social-media{
+color: silver;
+text-decoration: underline;
+}
+
+.social{
+color: silver;
+}
+
+.media{
+color: blue;
+}
+
+.euro{
+color: yellow;
+}
+
+Form {
+border: 0.2em solid black;
+width: 100%;
+background-color:silver;
+padding: 5px;
+max-width:700px;
+}
+
+.form-content
+{
+	padding:20px;
+}
+
+label, input[type=text], input[type=email], textarea
+{
+	display:flex;
+	padding:8px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	width:100%;
+}
+
+input, textarea{
+	margin:10px 0;
+}
+.row
+{
+	margin: auto;
+    width: 33%;
+	
+}
+
+.header{color:white; text-align:center;}
+
+.primary, .contentd, .secondary
+{
+	float:left;
+	width:29.33%;
+	margin:1%;
+	padding:1%;
+}
+.primary {
+   background-color:blue;
+}
+
+.contentd {
+    background-color:red;
+}
+
+.secondary {
+   background-color:yellow;
+}
+
+.active
+{
+	text-decoration:underline;
+	background-color:black;
+}
+
+
+
+#z-textbox1
+{
+	width:100%;
+	position:absolute;
+	color:white;
+	z-index:1;
+	padding-left:81%;
+}
+
+#z-textbox2
+{
+	position:absolute;
+	color:white;
+	width:100%;
+	background:gray;
+}
+
+#z-textbox2 p
+{
+	padding-left:4%;
+}
+
+
+footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+    background-color: red;
+    color: white;
+    text-align: center;
+	padding:15px 0px;
+    }
+
+.footer-img{
+	vertical-align:-27%;
+}
